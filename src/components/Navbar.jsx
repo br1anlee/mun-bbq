@@ -1,6 +1,7 @@
 import Logo from '../assets/mun.png'
+import { FaBars, FaTimes } from "react-icons/fa";
 import {Link} from 'react-scroll'
-import {useState} from 'react'
+import React, {useState} from 'react'
 
 
 export default function Navbar () {
@@ -40,7 +41,34 @@ export default function Navbar () {
             </ul>
 
             {/* Hamburger */}
+            <div onClick={handleClick} className="md:hidden z-10">
+                {!nav ? <FaBars /> : <FaTimes />}
+            </div>
 
+
+            {/* Mobile Menu */}
+            <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-black flex flex-col justify-center items-center'}>
+                <li className="py-6 text-4xl">
+                    <Link onClick={handleClick} to="home">
+                        Home
+                    </Link>
+                </li>
+                <li className="py-6 text-4xl">
+                    <Link onClick={handleClick} to="about">
+                        About
+                    </Link>
+                </li>
+                <li className="py-6 text-4xl">
+                    <Link onClick={handleClick} to="menu">
+                        Menu
+                    </Link>
+                </li>
+                <li className="py-6 text-4xl">
+                    <Link onClick={handleClick} to="contact">
+                        Contact
+                    </Link>
+                </li>
+            </ul>
         </div>
     )
 }
