@@ -12,30 +12,30 @@ export default function Navbar () {
         <div className="sticky w-full flex justify-between items-center px-4 bg-black text-gray-300 z-auto">
             <div className="cursor-pointer">
                 <Link to="home" smooth={true} duration={500}>
-                    <img src={Logo} alt="Mun Korean Steakhouse Logo" style={{width: "50px"}}/>
+                    <img src={Logo} alt="Mun Korean Steakhouse Logo" style={{width: "75px"}} className="pt-5"/>
                 </Link>
             </div>
 
             {/* Menu */}
             <ul className="hidden md:flex">
                 <li>
-                    <Link to="home" smooth={true} duration={500}>
-                        Home
+                    <Link to="home" smooth={true} duration={500} className="hover:border-b-gray-300 border-transparent border py-0.5">
+                        HOME
                     </Link>
                 </li>
                 <li>
-                    <Link to="about" smooth={true} duration={500}>
-                        About
+                    <Link to="about" smooth={true} duration={500} className="hover:border-b-gray-300 border-transparent border py-0.5">
+                        ABOUT US
                     </Link>
                 </li>
                 <li>
-                    <Link to="menu" smooth={true} duration={500}>
-                        Menu
+                    <Link to="menu" smooth={true} duration={500} className="hover:border-b-gray-300 border-transparent border py-0.5">
+                        OUR MENU
                     </Link>
                 </li>
                 <li>
-                    <Link to="contact" smooth={true} duration={500}>
-                        Contact
+                    <Link to="contact" smooth={true} duration={500} className="hover:border-b-gray-300 border-transparent border py-0.5">
+                        CONTACT US
                     </Link>
                 </li>
             </ul>
