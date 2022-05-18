@@ -37,14 +37,14 @@ A website for Mun Korean Steakhouse
 ## MVP
 ---
 - [X] Responsive Navbar
-- [] About page explaining what Mun Korean Steakhouse is
-- [] Menu page showcasing all of the different dishes Mun is offering
-- [] Contact page that shows the address, hours and socials information
+- [] About page explaining about Mun Korean Steakhouse.
+- [] Menu page showcasing all of the different dishes the restaurant is offering.
+- [] Contact page that shows the address, hours, socials and etc.
 
 
 ## Stretch Goals
 ---
-- [] Implement Google Maps to the website and
+- [] Implement Google Maps to the website.
 
 
 ## Resources
