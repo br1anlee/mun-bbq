@@ -34,6 +34,11 @@ export default function Navbar () {
                     </Link>
                 </li>
                 <li>
+                    <Link to="gallery" smooth={true} duration={500} className="hover:border-b-gray-300 border-transparent border py-0.5">
+                        GALLERY
+                    </Link>
+                </li>
+                <li>
                     <Link to="contact" smooth={true} duration={500} className="hover:border-b-gray-300 border-transparent border py-0.5">
                         CONTACT US
                     </Link>
@@ -61,6 +66,11 @@ export default function Navbar () {
                 <li className="py-6 text-4xl">
                     <Link onClick={handleClick} to="menu" smooth={true} duration={500}>
                         Menu
+                    </Link>
+                </li>
+                <li className="py-6 text-4xl">
+                    <Link onClick={handleClick} to="gallery" smooth={true} duration={500}>
+                        Gallery
                     </Link>
                 </li>
                 <li className="py-6 text-4xl">
