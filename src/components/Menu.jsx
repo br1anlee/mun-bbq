@@ -1,5 +1,5 @@
 export default function Menu () {
     return (
-        <div>This is the menu component</div>
+        <div className="font-bold">This is the menu component</div>
     )
 }

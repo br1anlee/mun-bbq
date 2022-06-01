@@ -9,7 +9,7 @@ export default function Navbar () {
     const handleClick = () => setNav(!nav)
     return (
         // Mun Logo redirects to Home Component
-        <div className="sticky w-full flex justify-between items-center px-4 bg-black text-gray-300 z-auto">
+        <div className="sticky w-full flex justify-between items-center px-4 bg-black text-gray-300 z-auto font-bold">
             <div className="cursor-pointer">
                 <Link to="home" smooth={true} duration={500}>
                     <img src={Logo} alt="Mun Korean Steakhouse Logo" style={{width: "75px"}} className="pt-5"/>
@@ -19,7 +19,7 @@ export default function Navbar () {
             {/* Menu */}
             <ul className="hidden md:flex">
                 <li>
-                    <Link to="home" smooth={true} duration={500} className="hover:border-b-gray-300 border-transparent border py-0.5">
+                    <Link to="home" smooth={true} duration={500} className="hover:border-b-gray-300 border-transparent border py-0.5 ">
                         HOME
                     </Link>
                 </li>
