@@ -1,4 +1,4 @@
-import Logo from '../assets/mun.png'
+import Logo from '../assets/images/mun.png'
 import { FaBars, FaTimes } from "react-icons/fa";
 import {Link} from 'react-scroll'
 import React, {useState} from 'react'
