@@ -13,7 +13,7 @@ import wineMeat from '../assets/gallery/wine-meat.jpg'
 
 export default function Gallery() {
     return (
-        <div className="bg-black">
+        <div className="bg-black w-full" name="gallery">
             <h1 className="text-4xl text-center p-4 text-white">Feast Your Eyes</h1>
             <div className="grid grid-cols-4 gap-4 mx-4 ">
                 <div><img src={BBQ} alt="Image of meat" className="border-2 border-yellow-600 border-solid"/></div>

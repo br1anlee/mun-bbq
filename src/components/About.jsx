@@ -1,6 +1,6 @@
 export default function About () {
     return (
-        <div>
+        <div name="about">
             <p className="text-white bg-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta odio, sed natus asperiores perspiciatis voluptatum laboriosam iure necessitatibus ratione hic, maiores tempore veniam blanditiis consequuntur! Odio debitis officia doloremque voluptates?
             In voluptatum perferendis amet minus saepe beatae assumenda eius est nobis quae vitae ipsa animi, aliquam eligendi earum aspernatur voluptate officia laboriosam possimus mollitia suscipit doloremque! Repudiandae, architecto cumque. Iure!
             Dignissimos animi officiis corporis provident, error nulla dolorem, alias harum, dolor quo quia neque quisquam porro fugiat illo fuga culpa unde assumenda. Officia nihil assumenda soluta laborum ab ducimus minus.
