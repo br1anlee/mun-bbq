@@ -1,5 +1,3 @@
-import munVideo from '../assets/gallery/video.mp4'
-
 export default function Home () {
     return (
         <div className="bg-[#0a192f]" name='home'>
