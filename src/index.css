@@ -29,9 +29,11 @@ body {
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: 'Munhwa', serif;
+  src: local('Munhwa'), url(/src/assets/Fonts/munhwa.otf) format('woff');
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'Munhwa', source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }

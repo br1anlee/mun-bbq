@@ -1,16 +1,16 @@
 export default function About () {
     return (
-        <div name="about">
-            <p className="text-white bg-black">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta odio, sed natus asperiores perspiciatis voluptatum laboriosam iure necessitatibus ratione hic, maiores tempore veniam blanditiis consequuntur! Odio debitis officia doloremque voluptates?
-            In voluptatum perferendis amet minus saepe beatae assumenda eius est nobis quae vitae ipsa animi, aliquam eligendi earum aspernatur voluptate officia laboriosam possimus mollitia suscipit doloremque! Repudiandae, architecto cumque. Iure!
-            Dignissimos animi officiis corporis provident, error nulla dolorem, alias harum, dolor quo quia neque quisquam porro fugiat illo fuga culpa unde assumenda. Officia nihil assumenda soluta laborum ab ducimus minus.
-            Earum inventore excepturi similique illo praesentium minus illum magni alias, doloremque eaque quisquam totam unde. Dolorem veritatis hic esse, facilis placeat, saepe labore inventore quisquam voluptas maiores architecto eos iusto?
-            Assumenda molestiae blanditiis ullam nostrum similique fugiat nam recusandae vel adipisci? Iusto porro similique dolore quos minima officia adipisci, ab explicabo nisi mollitia rerum id quas corrupti commodi in tempora!
-            Nulla inventore, magnam natus vero labore blanditiis corrupti nam omnis ex ab ea non tenetur, harum consequuntur quia facilis numquam a laborum nihil vel eum eius cum ipsa excepturi. Reiciendis.
-            Quod mollitia eligendi sapiente, repellat accusantium reiciendis nihil deserunt voluptatibus animi molestias? Quasi odio quas natus tempora quis unde incidunt nihil, autem, minus repellat commodi sit eaque rem assumenda dicta!
-            Consequuntur veritatis aliquam, nobis ut dolorum ipsa quae esse! Dolore officia sapiente quisquam beatae quaerat optio laborum dicta iure. Delectus voluptatum reiciendis veniam molestiae harum nihil pariatur consequatur, voluptatibus error!
-            Dolor molestias nisi optio sapiente odit voluptatem dolorum velit possimus, nobis consequuntur saepe quod, voluptate est, sequi laborum quasi quis reiciendis cumque necessitatibus alias quas obcaecati maiores vel deserunt. Eum?
-            Amet rem sit at repellat mollitia dicta, dolor quaerat omnis tenetur voluptatem quia molestiae consequatur doloremque ducimus velit suscipit minus eveniet ut nulla accusantium dignissimos tempore tempora! Corporis, dicta veniam.</p>
+        <div name="about" className="bg-black">
+            <p className="text-gray-300 text-4xl text-center p-5">About Us</p>
+            <div className="columns-2 p-5">
+                <img src="https://place-puppy.com/400x400" alt="" className="m-auto"/>
+                <p className="text-gray-300">Craving for every meat lovers. Come join us at Mun Korean Steakhouse for an exclusive experience. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo, ea dolores inventore nisi voluptas est natus error libero hic aliquam fuga voluptatum asperiores tempore id earum voluptates temporibus explicabo. Magnam?
+                Natus quis similique porro, doloremque quia sapiente obcaecati minus architecto quo! Eligendi maiores, nihil distinctio veniam saepe incidunt, nobis velit praesentium inventore ea placeat quaerat dignissimos impedit. Quam, cumque perspiciatis!
+                Autem ex omnis dolor sit provident eveniet, doloremque quo, magnam fugiat necessitatibus quibusdam blanditiis nesciunt, nam placeat perspiciatis rem voluptatum consectetur iure odio! Iure reprehenderit porro illum, nihil commodi eveniet.
+                Ea quos asperiores nemo ratione odit esse, ipsa consequuntur veniam quas? Dolorem, voluptatem sed cum sunt obcaecati odio voluptas dolorum praesentium quaerat aperiam enim tenetur illum sit excepturi officia! Maxime.
+                Exercitationem autem necessitatibus nostrum perferendis dolor optio omnis dolores a facilis, fugiat illum, quo pariatur facere quam inventore, recusandae quae! Qui dicta quasi provident voluptates ipsum quam reiciendis architecto aut?
+                </p>
+            </div>
         </div>
     )
 }
